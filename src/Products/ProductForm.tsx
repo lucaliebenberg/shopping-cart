@@ -22,6 +22,7 @@ const ProductForm: React.FC = () => {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
+    // dispatch(addProductAsync(product));
     dispatch(addProduct(product));
   };
 
