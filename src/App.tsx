@@ -5,6 +5,7 @@ import ProductsList from "./Products/ProductsList";
 import ProductForm from "./Products/ProductForm";
 import { Provider } from "react-redux";
 import store from "./store";
+import Cart from "./Cart/Cart";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <div className="App">
         <ProductsList />
         <ProductForm />
+        <Cart />
       </div>
     </Provider>
   );
